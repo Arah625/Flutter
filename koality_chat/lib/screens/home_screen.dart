@@ -9,6 +9,7 @@ import 'package:koality_chat/pages/messages_page.dart';
 import 'package:koality_chat/pages/notifications_page.dart';
 import 'package:koality_chat/theme.dart';
 import 'package:koality_chat/widgets/avatar.dart';
+import 'package:koality_chat/widgets/glowing_action_button.dart';
 import 'package:koality_chat/widgets/icon_buttons.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -35,6 +36,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+          iconTheme: Theme.of(context).iconTheme,
           backgroundColor: Colors.transparent,
           elevation: 0,
           title: Center(
@@ -103,41 +105,59 @@ class _BottomNavigationBarState extends State<_BottomNavigationBar> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      top: false,
-      bottom: true,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [
-          _NavigationBarItem(
-            index: 0,
-            label: 'Messages',
-            icon: CupertinoIcons.chat_bubble_2_fill,
-            isSelected: (selectedIndex == 0),
-            onTap: handleItemSelected,
+    final brightness = Theme.of(context).brightness;
+    return Card(
+      color: (brightness == Brightness.light) ? Colors.transparent : null,
+      elevation: 0,
+      margin: const EdgeInsets.all(0),
+      child: SafeArea(
+        top: false,
+        bottom: true,
+        child: Padding(
+          padding: const EdgeInsets.only(top: 16.0, left: 8, right: 8),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              _NavigationBarItem(
+                index: 0,
+                label: 'Messages',
+                icon: CupertinoIcons.chat_bubble_2_fill,
+                isSelected: (selectedIndex == 0),
+                onTap: handleItemSelected,
+              ),
+              _NavigationBarItem(
+                index: 1,
+                label: 'Notifications',
+                icon: CupertinoIcons.bell_solid,
+                isSelected: (selectedIndex == 1),
+                onTap: handleItemSelected,
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                child: GlowingActionButton(
+                    color: AppColors.secondary,
+                    icon: CupertinoIcons.add,
+                    onPressed: () {
+                      print('TODO');
+                    }),
+              ),
+              _NavigationBarItem(
+                index: 2,
+                label: 'Calls',
+                icon: CupertinoIcons.phone_solid,
+                isSelected: (selectedIndex == 2),
+                onTap: handleItemSelected,
+              ),
+              _NavigationBarItem(
+                index: 3,
+                label: 'Contacts',
+                icon: CupertinoIcons.person_2_fill,
+                isSelected: (selectedIndex == 3),
+                onTap: handleItemSelected,
+              ),
+            ],
           ),
-          _NavigationBarItem(
-            index: 1,
-            label: 'Notifications',
-            icon: CupertinoIcons.bell_solid,
-            isSelected: (selectedIndex == 1),
-            onTap: handleItemSelected,
-          ),
-          _NavigationBarItem(
-            index: 2,
-            label: 'Calls',
-            icon: CupertinoIcons.phone_solid,
-            isSelected: (selectedIndex == 2),
-            onTap: handleItemSelected,
-          ),
-          _NavigationBarItem(
-            index: 3,
-            label: 'Contacts',
-            icon: CupertinoIcons.person_2_fill,
-            isSelected: (selectedIndex == 3),
-            onTap: handleItemSelected,
-          ),
-        ],
+        ),
       ),
     );
   }
@@ -167,7 +187,7 @@ class _NavigationBarItem extends StatelessWidget {
         onTap(index);
       }),
       child: SizedBox(
-          height: 70,
+          width: 75,
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
