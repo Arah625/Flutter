@@ -1,0 +1,23 @@
+{
+    "helloWorld": "Witaj świecie",
+    "@helloWorld": {
+      "description": "The conventional newborn programmer greeting"
+    },
+
+    "@_TOP_APP_BAR": {},
+    "topAppBarTitle": "Pandastyczna Koalaboracja",
+
+    "@_BOTTOM_APP_BAR": {},
+    "home": "Start",
+    "spring": "Wiosna",
+    "summer": "Lato",
+    "autumn": "Jesień",
+    "winter": "Zima",
+
+    "@_QUOTES": {},
+    "q1": "Bądź odważny. \n \nNigdy nie wiesz, dokąd może cię doprowadzić pierwsze spotkanie.",
+    "q2": "- Nowy dzień i nowy początek - powiedział Mały Smok. \n \n- Co powinniśmy z nim zrobić?",
+    "q3": "- Co jest ważniejsze: droga czy cel? - chciała wiedzieć Wielka Panda. \n \n- Towarzystwo w podróży - odparł Mały Smok",
+    "q4": "- Jestem teraz zbyt zajęty, by oglądać kwiaty - stwierdził Mały Smok. \n \n- Tym bardziej powinieneś na nie patrzeć - powiedziała Wielka Panda. - Poza tym później może ich już nie być.",
+    "q5": "- Czy natura nie jest niesamowita? - zachwycił się Mały Smok. \n \n- Jest - zgodziła się Wielka Panda. - Ale my jesteśmy taką samą częścią natury jak drzewo czy pająk, i jesteśmy równie zdumiewający."
+}

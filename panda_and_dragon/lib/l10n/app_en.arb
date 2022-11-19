@@ -1,0 +1,23 @@
+{
+    "helloWorld": "Hello World!",
+    "@helloWorld": {
+      "description": "The conventional newborn programmer greeting"
+    },
+
+    "@_TOP_APP_BAR": {},
+    "topAppBarTitle": "Pandastic Koalaboration",
+
+    "@_BOTTOM_APP_BAR": {},
+    "home": "Home",
+    "spring": "Spring",
+    "summer": "Summer",
+    "autumn": "Autumn",
+    "winter": "Winter",
+
+    "@_QUOTES": {},
+    "q1": "Be brave. \n \nYou never know what a first meeting might lead to.",
+    "q2": "- A new day and a new beginning, said Tiny Dragon. \n \n- What shall we do with it?",
+    "q3": "- Which is more important, asked Big Panda, the journey or the destination? \n \n- The company, said Tiny Dragon.",
+    "q4": "- I'm too busy to see the flowers right now, said Tiny Dragon. \n \n- All the more reason to look at them, said Big Panda. And they might not be here tomorrow.",
+    "q5": "- Isn't nature incredible! said Tiny Dragon. \n \nIt is, agreed Big Panda. But we are just as much a part of nature as the tree or the spider, and just as amazing."
+}
