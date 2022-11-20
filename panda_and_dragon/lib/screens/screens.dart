@@ -1,5 +1,10 @@
-export 'home_screen.dart';
+export 'main_screen.dart';
 export 'winter_screen.dart';
 export 'summer_screen.dart';
 export 'autumn_screen.dart';
+export 'spring_screen.dart';
 export 'avatar_screen.dart';
+export 'home_screen.dart';
+export 'settings_screen.dart';
+export 'about_application_screen.dart';
+export 'favourites_screen.dart';

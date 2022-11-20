@@ -1,23 +1,32 @@
 {
-    "helloWorld": "Hello World!",
-    "@helloWorld": {
-      "description": "The conventional newborn programmer greeting"
-    },
+  "appTitle": "Big Panda & Tiny Dragon",
+  "@appTitle": {
+    "description": "Application title"
+  },
 
-    "@_TOP_APP_BAR": {},
-    "topAppBarTitle": "Pandastic Koalaboration",
+  "@_SIDE_DRAWER": {},
+  "profile": "Profile",
+  "favourites": "Favourites",
+  "about": "About",
+  "settings": "Settings",
 
-    "@_BOTTOM_APP_BAR": {},
-    "home": "Home",
-    "spring": "Spring",
-    "summer": "Summer",
-    "autumn": "Autumn",
-    "winter": "Winter",
+  "@_ABOUT_APPLICATION": {},
+  "aboutApplicationInfo": "Aplikacja powstała jako prezent z okazji imienin oraz Świąt Bożego Narodzenia. Ta niewielka aplikacja zawiera wybrane cytaty z książki 'Wielka Panda i Mały Smok' autorstwa James Norbury. \n W związku z czym, życzę Ci Koalko wszystkiego najlepszego z okazji imienin oraz nadchodzących Świąt Bożego Narodzenia!\nAplikacja jest dostępna w języku polskim oraz angielskim" ,
 
-    "@_QUOTES": {},
-    "q1": "Be brave. \n \nYou never know what a first meeting might lead to.",
-    "q2": "- A new day and a new beginning, said Tiny Dragon. \n \n- What shall we do with it?",
-    "q3": "- Which is more important, asked Big Panda, the journey or the destination? \n \n- The company, said Tiny Dragon.",
-    "q4": "- I'm too busy to see the flowers right now, said Tiny Dragon. \n \n- All the more reason to look at them, said Big Panda. And they might not be here tomorrow.",
-    "q5": "- Isn't nature incredible! said Tiny Dragon. \n \nIt is, agreed Big Panda. But we are just as much a part of nature as the tree or the spider, and just as amazing."
+  "@_TOP_APP_BAR": {},
+  "topAppBarTitle": "Pandastic Koalaboration",
+
+  "@_BOTTOM_APP_BAR": {},
+  "home": "Home",
+  "spring": "Spring",
+  "summer": "Summer",
+  "autumn": "Autumn",
+  "winter": "Winter",
+
+  "@_QUOTES": {},
+  "q1": "Be brave. \n \nYou never know what a first meeting might lead to.",
+  "q2": "- A new day and a new beginning, said Tiny Dragon. \n \n- What shall we do with it?",
+  "q3": "- Which is more important, asked Big Panda, the journey or the destination? \n \n- The company, said Tiny Dragon.",
+  "q4": "- I'm too busy to see the flowers right now, said Tiny Dragon. \n \n- All the more reason to look at them, said Big Panda. And they might not be here tomorrow.",
+  "q5": "- Isn't nature incredible! said Tiny Dragon. \n \nIt is, agreed Big Panda. But we are just as much a part of nature as the tree or the spider, and just as amazing."
 }
