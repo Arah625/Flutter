@@ -31,6 +31,7 @@ class LoginScreen extends StatelessWidget {
                   height: MediaQuery.of(context).size.height *
                       0.28), // Increased spacing
               BackGroundImageTextField(
+                label: 'Email Address',
                 hint: 'Email',
                 controller: emailController,
                 keyboardType: TextInputType.emailAddress,
@@ -38,6 +39,7 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               BackGroundImageTextField(
+                label: 'Password',
                 hint: 'Password',
                 controller: passwordController,
                 keyboardType: TextInputType.text,

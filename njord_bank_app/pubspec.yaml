@@ -37,6 +37,10 @@ dependencies:
   gradient_borders: ^1.0.0
   gradient_icon: ^2.0.9
   shimmer_animation: ^2.1.0
+  syncfusion_flutter_datepicker: ^25.1.35
+  intl: ^0.19.0
+
+
 
 flutter_native_splash:
   background_image: "assets/images/launch_background_image.png"
