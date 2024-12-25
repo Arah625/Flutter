@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:njord_bank_app/colors/constants.dart';
+import 'package:njord_bank_app/colors/app_colors.dart';
 import 'package:njord_bank_app/navigation/navigation_service_with_loader.dart';
 import 'package:njord_bank_app/widgets/appBar/topAppBar/transparent_app_bar_with_subtitle.dart';
 import 'package:njord_bank_app/widgets/button/custom_button.dart';

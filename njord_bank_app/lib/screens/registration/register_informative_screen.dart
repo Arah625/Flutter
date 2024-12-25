@@ -4,7 +4,7 @@ import 'package:njord_bank_app/screens/registration/step_personal_data.dart';
 import 'package:njord_bank_app/utils/colors/gradients/gradient_text.dart';
 import 'package:njord_bank_app/widgets/appBar/topAppBar/transparent_app_bar_with_back_button.dart';
 import 'package:njord_bank_app/widgets/button/custom_button.dart';
-import 'package:njord_bank_app/colors/constants.dart';
+import 'package:njord_bank_app/colors/app_colors.dart';
 import 'package:njord_bank_app/widgets/textElement/gradient_bullet_list.dart';
 
 class RegisterInformativeScreen extends StatelessWidget {

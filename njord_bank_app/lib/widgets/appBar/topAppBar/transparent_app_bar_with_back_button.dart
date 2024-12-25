@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:njord_bank_app/colors/constants.dart';
+import 'package:njord_bank_app/colors/app_colors.dart';
 import 'package:njord_bank_app/navigation/navigation_service_with_loader.dart';
 import 'package:njord_bank_app/utils/colors/gradients/gradient_icon.dart';
 import 'package:njord_bank_app/utils/colors/gradients/gradient_text.dart';

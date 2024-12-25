@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gradient_borders/gradient_borders.dart';
-import 'package:njord_bank_app/colors/constants.dart'; // Import your constants
+import 'package:njord_bank_app/colors/app_colors.dart'; // Import your constants
 
 class BackGroundImageTextField extends StatelessWidget {
   final String hint;

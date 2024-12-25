@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:njord_bank_app/colors/constants.dart';
+import 'package:njord_bank_app/colors/app_colors.dart';
 
 class GradientBulletList extends StatelessWidget {
   final List<String> items;

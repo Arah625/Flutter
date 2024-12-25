@@ -14,3 +14,5 @@ const Color lightBlue = Color(0xFFa4eaf4);
 // const Color textFieldBackground = Color.fromARGB(255, 118, 225, 241);
 const Color textFieldBackground = Color.fromARGB(255, 69, 213, 235);
 const Color textFieldBackgroundHint = Color.fromARGB(214, 107, 81, 2);
+
+const Color validationError = Color.fromARGB(255, 255, 3, 3);

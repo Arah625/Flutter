@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gradient_borders/gradient_borders.dart';
-import 'package:njord_bank_app/colors/constants.dart'; // Adjust path as necessary
+import 'package:njord_bank_app/colors/app_colors.dart'; // Adjust path as necessary
 
 class CustomTextField extends StatelessWidget {
   final String hint;

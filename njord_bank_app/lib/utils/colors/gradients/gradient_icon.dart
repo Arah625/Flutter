@@ -1,6 +1,6 @@
 // radiant_gradient_mask.dart
 import 'package:flutter/material.dart';
-import 'package:njord_bank_app/colors/constants.dart';
+import 'package:njord_bank_app/colors/app_colors.dart';
 
 class GradientIcon extends StatelessWidget {
   final Widget child;

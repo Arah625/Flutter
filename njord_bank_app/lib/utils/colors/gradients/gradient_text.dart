@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:njord_bank_app/colors/constants.dart'; // Ensure correct import path
+import 'package:njord_bank_app/colors/app_colors.dart'; // Ensure correct import path
 
 class GradientText extends StatelessWidget {
   final String text;

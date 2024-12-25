@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:njord_bank_app/colors/constants.dart';
+import 'package:njord_bank_app/colors/app_colors.dart';
 import 'package:njord_bank_app/utils/colors/gradients/gradient_text.dart'; // Import your constants
 
 class TransparentTopAppBar extends StatelessWidget
